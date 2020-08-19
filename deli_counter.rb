@@ -1,8 +1,9 @@
 def line(array)
+  new_array = []
   array.map do |x|
-    puts "The line is currently: #{x}"
-   
-end
+    new_array << x
+  end
+  
   if array.length == 0 
   puts "The line is currently empty."
 
