@@ -1,9 +1,9 @@
 def line(array)
   new_array = []
-  array.map do |x|
-    new_array << x
+  array.each_with_index do |index,name|
+    new_array << "#{index + 1}. #{name}."
   end
-  new_array.each_with_index do |index,name|
+  puts new_array
     
   if array.length == 0 
   puts "The line is currently empty."
