@@ -2,6 +2,7 @@ def line(array)
  x = []
  array.each_with_index do |index,name|  
   x << puts "The line is currently: #{name + 1}.#{index}."
+  x
 end
   if array.length == 0 
   puts "The line is currently empty."
