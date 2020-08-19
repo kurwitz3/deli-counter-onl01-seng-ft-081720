@@ -1,8 +1,7 @@
 def line(array)
- x = 0
- while array.length > 0
-  puts "The line is currently#{x + 1 }.#{array[x]}."
-x += 1
+  array.each do |x|
+    
+   
 end
   if array.length == 0 
   puts "The line is currently empty."
