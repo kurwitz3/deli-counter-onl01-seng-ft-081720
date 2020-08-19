@@ -4,7 +4,7 @@ def line(array)
   puts"The line is currently empty."
  end
   while  array.length > 0
-  puts "The line is currently #{x + 1}. #{array[0]}"
+  puts "The line is currently: #{x + 1}. #{array[0]}"
   array[] +=1 
 end
 end
