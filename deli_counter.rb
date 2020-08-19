@@ -3,6 +3,6 @@ def line(array)
   if array.length == 0
   puts"The line is currently empty."
   elsif array.legth > 0
-  puts "The line is currently "
+  puts "The line is currently #{x + 1} #{array}"
 end
 end
