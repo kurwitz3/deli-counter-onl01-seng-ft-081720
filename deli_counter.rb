@@ -1,7 +1,10 @@
 def line(array)
- x = []
- array.each_with_index do |name,index|  
-  puts "The line is currently#{index + 1}. #{name}."
+ x = 0
+ while array.length > 0
+  puts "The line is currently#{x + 1 } #{array[x]}."
+x += 1
+end
+
 end
  puts "The line is currently #{x}"
   if array.length == 0 
