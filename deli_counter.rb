@@ -2,6 +2,7 @@ def line(array)
   new_array = []
   array.each_with_index do |index,name|
     new_array.push("#{name + 1}. #{index}.")
+    new_array.join
   end
   puts "The line is currently: #{new_array}."
     
