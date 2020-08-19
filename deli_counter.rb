@@ -12,3 +12,11 @@ end
    array.push(name)
    puts "Welcome, #{name}. You are number #{array.length} in line."
  end
+ def now_serving(array)
+    puts "#{array[0]}"
+    array.shift
+    if array.length == 0 
+      puts "There is nobody waiting to be served!"
+    end
+    end
+    
