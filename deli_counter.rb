@@ -1,5 +1,5 @@
 def line(array)
-  array.each do |x|
+  array.map do |x|
     puts "The line is currently: #{x}"
    
 end
