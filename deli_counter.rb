@@ -1,7 +1,7 @@
 def line(array)
  x = []
  array.each_with_index do |name,index|  
-  x <<  "#{index + 1} #{name}"
+  puts "The line is currently#{index + 1}. #{name}."
 end
  puts "The line is currently #{x}"
   if array.length == 0 
