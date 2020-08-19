@@ -1,6 +1,6 @@
 def line(array)
  x = 0
- array.each do |z|  
+ array.each_with_index do |z|  
   puts "The line is currently: #{x + 1 }.#{z}"
 end
   if array.length == 0 
