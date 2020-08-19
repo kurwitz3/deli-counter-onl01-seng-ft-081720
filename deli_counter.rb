@@ -1,7 +1,7 @@
 def line(array)
  
- array.each_with_index(1) do |index,name|  
-   puts "The line is currently: #{name}. #{index}."
+ array.each_with_index(1) do |name,index|  
+   puts " #{name}. #{index}."
 end
   if array.length == 0 
   puts "The line is currently empty."
