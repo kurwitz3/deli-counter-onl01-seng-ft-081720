@@ -1,6 +1,6 @@
 def line(array)
  
- array.each_with_index(1) do |name,index|  
+ array.each_with_index do |name,index|  
    puts " #{name}. #{index}."
 end
   if array.length == 0 
