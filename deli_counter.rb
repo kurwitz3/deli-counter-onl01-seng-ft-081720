@@ -1,13 +1,13 @@
 def line(array)
- 
+   if array == 0
+  puts "The line is currently empty."
  new_array = []
   array.each_with_index do |index,name|
     new_array.push("#{name + 1}. #{index}")
   end
   puts "The line is currently: #{new_array.join(" ")}"
     
-  if array == 0
-  puts "The line is currently empty."
+ 
 
 end
 end
