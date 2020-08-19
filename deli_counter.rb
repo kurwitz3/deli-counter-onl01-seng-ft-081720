@@ -5,6 +5,6 @@ def line(array)
  end
   while  array.length > 0
   puts "The line is currently #{x + 1}.#{array[0]}"
-   +=1 
+  array[] +=1 
 end
 end
