@@ -5,7 +5,7 @@ def line(array)
   end
   puts "The line is currently: #{new_array.join(" ")}"
     
-  if array.length == 0 
+  if new_array == 0 
   puts "The line is currently empty."
 
 end
