@@ -1,7 +1,7 @@
 def line(array)
   new_array = []
   array.each_with_index do |index,name|
-    new_array << "#{index + 1}. #{name}."
+    new_array.push("#{index}. #{name}.")
   end
   puts new_array
     
