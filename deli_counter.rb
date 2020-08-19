@@ -2,9 +2,8 @@ def line(array)
   new_array = []
   array.each_with_index do |index,name|
     new_array.push("#{name + 1}. #{index}.")
-    new_array.join
   end
-  puts "The line is currently: #{new_array}."
+  puts "The line is currently: #{new_array.join}"
     
   if array.length == 0 
   puts "The line is currently empty."
