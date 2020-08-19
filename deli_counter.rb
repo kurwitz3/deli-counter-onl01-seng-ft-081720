@@ -1,5 +1,5 @@
 def line(array)
- x = []
+ 
  array.each_with_index(1) do |index,name|  
    puts "The line is currently: #{name}. #{index}."
 end
