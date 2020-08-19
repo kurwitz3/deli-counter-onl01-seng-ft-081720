@@ -7,3 +7,4 @@ def line(array)
    +=1 
 end
 end
+end
