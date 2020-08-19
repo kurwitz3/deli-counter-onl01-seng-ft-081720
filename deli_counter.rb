@@ -4,8 +4,6 @@ def line(array)
   puts "The line is currently#{x + 1 } #{array[x]}."
 x += 1
 end
-
-end
   if array.length == 0 
   puts "The line is currently empty."
 
