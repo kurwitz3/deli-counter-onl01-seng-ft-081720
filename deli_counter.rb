@@ -1,6 +1,6 @@
 def line(array)
   array.each do |x|
-    
+    puts "The line is currently: #{x}"
    
 end
   if array.length == 0 
