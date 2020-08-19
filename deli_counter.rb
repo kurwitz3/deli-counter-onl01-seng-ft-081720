@@ -1,9 +1,10 @@
 def line(array)
  x = 0
-if array.length > 0 
-  puts "The line is currently: #{x + 1 }. #{array.length}."
-    else 
+ array.each do |x|  
+  puts "The line is currently: #{x + 1 }.#{x}"
+  if array.length == 0 
   puts "The line is currently empty."
+end
 end
 end
  def take_a_number(array,name)
