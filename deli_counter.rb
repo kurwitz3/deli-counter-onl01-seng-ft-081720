@@ -8,3 +8,4 @@ def line(array)
   array[] +=1 
 end
 end
+ def take_a_number(array,name)
